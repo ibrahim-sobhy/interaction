@@ -10,11 +10,11 @@ import java.util.Optional;
 import static org.apache.commons.lang.StringUtils.isBlank;
 import static org.apache.commons.lang.StringUtils.isNumeric;
 
+
 public class InteractionService {
 
   @Autowired
-  private
-  InteractionRepository interactionRepository;
+  private InteractionRepository interactionRepository;
 
   /**
    * Fetch the interactions for customer account.
